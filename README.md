@@ -237,15 +237,7 @@ http://localhost:3000 으로 접근 하면 다음과 같은 화면을 확인 할
 위에 정리한 내용은 [Install Tailwind CSS with Create React App](https://tailwindcss.com/docs/guides/create-react-app)을 보고 따라 하였습니다.
 
 코드를 보면서 직관적인 부분이 장점으로 다가오지만, html의 class가 너무 길어져서 불편하게 느껴지기도 했습니다.
-또한, React에서는 class 를 className으로 Attribute를 변경하고, value의 ```-```를 사용하지 않고 대문자로 변경하여 사용합니다.
-이때 숫자의 경우는 그냥 변환하지 않고 사용해야 합니다.
-
-```html
-// 기본 class
-<div class="py-12 bg-white"></div>
-// react className
-<div className="py-12 bgWhite"></div>
-```
+또한, React에서는 class 를 className으로 Attribute를 변경해야 합니다.
 
 많은 예제들이 나오고 있는 시점이라, 더욱 발전할 수 도 있겠다고 생각됩니다.
 
